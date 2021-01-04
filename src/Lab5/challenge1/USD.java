@@ -1,4 +1,8 @@
 package Lab5.challenge1;
 
-public class USD {
+public class USD extends  Currency{
+    public USD() {super.setName("USD");}
+    public USD(float value){
+        super(value, "USD");
+    }
 }
